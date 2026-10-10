@@ -102,6 +102,7 @@ h1,h2,.robot-story h3{font-family:'Arial Black','Helvetica Neue',Arial,sans-seri
 .outreach-grid{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border-top:1px solid #3c3c3c;border-left:1px solid #3c3c3c}
 .outreach-card{padding:30px;border-right:1px solid #3c3c3c;border-bottom:1px solid #3c3c3c;background:#111;transition:background .3s,opacity .7s ease var(--reveal-delay,0ms),transform .7s cubic-bezier(.2,.75,.25,1) var(--reveal-delay,0ms)}
 .outreach-card:hover{background:#1b1b1b}
+.outreach-highlight{grid-column:1/-1}
 .outreach-number{font-size:11px;font-weight:700;letter-spacing:2px}
 .outreach-card h3{font-size:22px;line-height:1.15;letter-spacing:-.025em;margin:30px 0 14px}
 .outreach-card p{font-size:13px;line-height:1.8;color:#b5b5b5;margin:0}

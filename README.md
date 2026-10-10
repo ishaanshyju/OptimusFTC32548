@@ -55,4 +55,4 @@ Netlify currently deploys the `main` branch of `ishaanshyju/OptimusFTC32548`. Up
 
 ## Outreach
 
-The Outreach section adapts the reference site's numbered card grid and partnership invitation to the team's black-and-white design. It describes opportunities for STEM demonstrations, robotics education, community events, and collaboration. Email links open outreach and partnership inquiries addressed to the team. Specific completed events and impact figures can be added once supplied by the team.
+The Outreach section adapts the reference site's numbered card grid and partnership invitation to the team's black-and-white design. It describes the five areas supplied by the team: STEM demonstrations, robotics education, community events, mentoring and collaboration, and inspiring young engineers. Email links open outreach and partnership inquiries addressed to the team. Specific completed events and impact figures can be added once supplied by the team.
