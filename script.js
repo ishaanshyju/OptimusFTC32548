@@ -12,7 +12,7 @@ toggle.addEventListener('click', () => {
 });
 navigation.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
 document.addEventListener('keydown', event => { if (event.key === 'Escape') closeMenu(); });
-window.addEventListener('resize', () => { if (window.innerWidth > 900) closeMenu(); });
+window.addEventListener('resize', () => { if (window.innerWidth > 1100) closeMenu(); });
 document.querySelector('#year').textContent = new Date().getFullYear();
 
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
@@ -78,3 +78,40 @@ if ('IntersectionObserver' in window) {
   }, { rootMargin: '-15% 0px -55% 0px' });
   document.querySelectorAll('main section[id]').forEach(section => sectionObserver.observe(section));
 }
+
+// Keep the final values readable when motion is reduced or paused.
+const counters = [...document.querySelectorAll('[data-count-to]')];
+const counterFrames = new Map();
+function finishCounters() {
+  counters.forEach(counter => {
+    const frame = counterFrames.get(counter);
+    if (frame) cancelAnimationFrame(frame);
+    counter.textContent = counter.dataset.countTo;
+    counterFrames.delete(counter);
+  });
+}
+function animateCounter(counter) {
+  if (reducedMotion.matches || motionPaused) return;
+  const end = Number(counter.dataset.countTo);
+  const start = performance.now();
+  function tick(now) {
+    if (reducedMotion.matches || motionPaused) { counter.textContent = String(end); return; }
+    const progress = Math.min(1, (now - start) / 1000);
+    counter.textContent = String(Math.round(end * (1 - Math.pow(1 - progress, 3))));
+    if (progress < 1) counterFrames.set(counter, requestAnimationFrame(tick));
+    else counterFrames.delete(counter);
+  }
+  counterFrames.set(counter, requestAnimationFrame(tick));
+}
+if ('IntersectionObserver' in window) {
+  const countObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      animateCounter(entry.target);
+      countObserver.unobserve(entry.target);
+    });
+  }, { threshold: 0.6 });
+  counters.forEach(counter => countObserver.observe(counter));
+}
+motionButton.addEventListener('click', () => { if (motionPaused) finishCounters(); });
+reducedMotion.addEventListener('change', () => { if (reducedMotion.matches) finishCounters(); });

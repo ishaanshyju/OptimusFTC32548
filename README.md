@@ -34,7 +34,7 @@ python3 -m http.server 3000 --bind 0.0.0.0
 
 - Edit `index.html` for team information, robot updates, and contact details.
 - Edit `styles.css` for colors and layout.
-- The hero robot is an original SVG concept illustration, not a photograph of the team's robot.
+- The robot section uses a labeled SVG concept illustration until team robot photos are provided.
 - Instagram: https://www.instagram.com/optimus_ftc/ (linked in the contact section and footer).
 - Build updates and additional contact details can be added when available.
 - Google Fonts are optional; system fallback fonts work offline.
@@ -47,4 +47,8 @@ The homepage includes scroll reveals, a floating robot illustration, animated or
 
 The Team section includes the ten names supplied by the team, with Vishal marked Captain. Other roles and bios have not been supplied; the remaining members are labeled Team member. Initials are used until portraits are provided.
 
-The reference website’s visual design is still pending inspection because its hostname is blocked by the current environment network policy. Animation controls, mobile navigation, and roster layout were verified locally.
+The design incorporates the black-and-white split hero, wording, season results, and public email from the HTML supplied by the team. The 2025–26 results are presented as supplied, with a link to the team's FIRST event record. The email is optimusftc.rrhs@gmail.com.
+
+The Season section includes animated counters and an expandable table of all 15 supplied qualification results. Final counter values remain visible with JavaScript disabled or reduced motion enabled. The page includes desktop navigation and a mobile menu that closes on selection or Escape.
+
+Netlify currently deploys the `main` branch of `ishaanshyju/OptimusFTC32548`. Updates pushed to that repository are published at the live address above.
