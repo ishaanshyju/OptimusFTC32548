@@ -2,6 +2,10 @@
 
 A responsive black-and-white website for Optimus FTC 32548, one of Round Rock High School’s robotics teams in Round Rock, Texas. No build step or package installation is required.
 
+## Live website
+
+https://optimusftc32548.netlify.app/
+
 ## GitHub Pages
 
 GitHub Pages is configured to serve the `main` branch from the repository root.
@@ -36,3 +40,11 @@ python3 -m http.server 3000 --bind 0.0.0.0
 - Google Fonts are optional; system fallback fonts work offline.
 
 The files can be hosted on any static website host. No backend, credentials, or database is required.
+
+## Motion and team profiles
+
+The homepage includes scroll reveals, a floating robot illustration, animated orbit lines, a reading progress indicator, and a pause/resume motion control. The site respects the browser’s reduced-motion setting.
+
+The Team section includes the ten names supplied by the team, with Vishal marked Captain. Other roles and bios have not been supplied; the remaining members are labeled Team member. Initials are used until portraits are provided.
+
+The reference website’s visual design is still pending inspection because its hostname is blocked by the current environment network policy. Animation controls, mobile navigation, and roster layout were verified locally.
