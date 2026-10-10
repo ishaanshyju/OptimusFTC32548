@@ -52,3 +52,7 @@ The design incorporates the black-and-white split hero, wording, season results,
 The Season section includes animated counters and an expandable table of all 15 supplied qualification results. Final counter values remain visible with JavaScript disabled or reduced motion enabled. The page includes desktop navigation and a mobile menu that closes on selection or Escape.
 
 Netlify currently deploys the `main` branch of `ishaanshyju/OptimusFTC32548`. Updates pushed to that repository are published at the live address above.
+
+## Outreach
+
+The Outreach section adapts the reference site's numbered card grid and partnership invitation to the team's black-and-white design. It describes opportunities for STEM demonstrations, robotics education, community events, and collaboration. Email links open outreach and partnership inquiries addressed to the team. Specific completed events and impact figures can be added once supplied by the team.

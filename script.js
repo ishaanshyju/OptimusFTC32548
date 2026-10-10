@@ -12,7 +12,7 @@ toggle.addEventListener('click', () => {
 });
 navigation.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
 document.addEventListener('keydown', event => { if (event.key === 'Escape') closeMenu(); });
-window.addEventListener('resize', () => { if (window.innerWidth > 1100) closeMenu(); });
+window.addEventListener('resize', () => { if (window.innerWidth > 1240) closeMenu(); });
 document.querySelector('#year').textContent = new Date().getFullYear();
 
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
