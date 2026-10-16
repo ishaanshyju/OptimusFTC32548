@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://optimusftc32548.netlify.app/sitemap.xml

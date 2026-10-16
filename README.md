@@ -56,3 +56,15 @@ Netlify currently deploys the `main` branch of `ishaanshyju/OptimusFTC32548`. Up
 ## Outreach
 
 The Outreach section adapts the reference site's numbered card grid and partnership invitation to the team's black-and-white design. It describes the five areas supplied by the team: STEM demonstrations, robotics education, community events, mentoring and collaboration, and inspiring young engineers. Email links open outreach and partnership inquiries addressed to the team. Specific completed events and impact figures can be added once supplied by the team.
+
+## Search visibility
+
+The site allows search engine crawling through `robots.txt` and its page metadata. `sitemap.xml` lists the homepage; its sections share that page and are not separate sitemap entries. The homepage includes a descriptive search title, canonical Netlify URL, social sharing metadata, and structured data identifying the team and its Instagram profile.
+
+Search engines decide when to crawl, index, and rank the site. These settings do not guarantee a listing or immediate visibility. To request indexing in Google:
+
+1. Open https://search.google.com/search-console and add `https://optimusftc32548.netlify.app/` as a URL-prefix property.
+2. Verify ownership using the HTML tag or HTML file method. Add the exact verification tag or file Google provides to this repository and deploy it before clicking Verify. Keep the verification in place afterward.
+3. Submit `sitemap.xml` under Sitemaps, then inspect the homepage URL and choose Request indexing if available.
+
+Adding the website link to the team's Instagram bio or an official school robotics page can also help people and search engines discover it.
