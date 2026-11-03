@@ -34,7 +34,7 @@ python3 -m http.server 3000 --bind 0.0.0.0
 
 - Edit `index.html` for team information, robot updates, and contact details.
 - Edit `styles.css` for colors and layout.
-- The robot section uses a labeled SVG concept illustration until team robot photos are provided.
+- The robot section displays a CAD visualization prepared from the team's screenshot, with a link to the full-size image.
 - Instagram: https://www.instagram.com/optimus_ftc/ (linked in the contact section and footer).
 - Build updates and additional contact details can be added when available.
 - Google Fonts are optional; system fallback fonts work offline.
@@ -43,7 +43,7 @@ The files can be hosted on any static website host. No backend, credentials, or 
 
 ## Motion and team profiles
 
-The homepage includes scroll reveals, a floating robot illustration, animated orbit lines, a reading progress indicator, and a pause/resume motion control. The site respects the browser’s reduced-motion setting.
+The homepage includes scroll reveals, animated status indicators, a reading progress indicator, and a pause/resume motion control. The site respects the browser’s reduced-motion setting.
 
 The Team section includes the ten names supplied by the team, with Vishal marked Captain. Other roles and bios have not been supplied; the remaining members are labeled Team member. Initials are used until portraits are provided.
 
@@ -68,3 +68,7 @@ Search engines decide when to crawl, index, and rank the site. These settings do
 3. Submit `sitemap.xml` under Sitemaps, then inspect the homepage URL and choose Request indexing if available.
 
 Adding the website link to the team's Instagram bio or an official school robotics page can also help people and search engines discover it.
+
+## Robot CAD image
+
+`assets/optimus-robot-cad.png` is an AI-assisted crop prepared from the CAD screenshot supplied in chat. It is presented as a CAD visualization for the website, rather than a downloadable CAD model. The original screenshot file was not accessible in the workspace. The prepared image removes the large blank outer canvas and viewer controls, and includes a full-size viewing link. Replace it with a direct screenshot or CAD export when the original file becomes available.

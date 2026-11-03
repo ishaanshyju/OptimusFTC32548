@@ -67,6 +67,15 @@ h1,h2,.robot-story h3{font-family:'Arial Black','Helvetica Neue',Arial,sans-seri
 .robot-showcase .top-label{top:10px;left:5%}
 .robot-showcase .bottom-label{left:5%;bottom:25px}
 .robot-showcase .illustration-note{bottom:0}
+.robot-cad{min-width:0;margin:0;border:1px solid #444;background:#fff;color:#111}
+.cad-image-link{display:block;line-height:0}
+.robot-cad img{display:block;width:100%;height:auto}
+.robot-cad figcaption{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;padding:17px 20px;border-top:1px solid #ddd}
+.robot-cad figcaption>span{font-size:9px;font-weight:700;letter-spacing:1.1px}
+.robot-cad figcaption a{font-size:12px;font-weight:600;white-space:nowrap}
+.robot-cad figcaption a:hover{text-decoration:underline;text-underline-offset:4px}
+.robot-cad figcaption .arrow-icon{margin-left:5px}
+.robot-cad a:focus-visible{outline:3px solid #111;outline-offset:-5px}
 .season-intro{font-size:15px;line-height:1.8;color:var(--muted);max-width:660px}
 .season-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin:42px 0;border-top:3px solid #111;border-bottom:1px solid #ccc}
 .season-stats article{padding:35px 25px 35px 0;border-right:1px solid #ccc}
