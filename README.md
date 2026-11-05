@@ -45,7 +45,7 @@ The files can be hosted on any static website host. No backend, credentials, or 
 
 The homepage includes scroll reveals, animated status indicators, a reading progress indicator, and a pause/resume motion control. The site respects the browser’s reduced-motion setting.
 
-The Team section includes the ten names supplied by the team, with Vishal marked Captain. Other roles and bios have not been supplied; the remaining members are labeled Team member. Initials are used until portraits are provided.
+The Team section includes the twelve names supplied by the team, with Vishal marked Captain. Other roles and bios have not been supplied; the remaining members are labeled Team member. Initials are used until portraits are provided.
 
 The design incorporates the black-and-white split hero, wording, season results, and public email from the HTML supplied by the team. The 2025–26 results are presented as supplied, with a link to the team's FIRST event record. The email is optimusftc.rrhs@gmail.com.
 
