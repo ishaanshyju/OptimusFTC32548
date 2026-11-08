@@ -59,7 +59,7 @@ The Outreach section adapts the reference site's numbered card grid and partners
 
 ## Sponsorship
 
-The Sponsorship section lists the team's approved one-season packages: Spark ($100+), Ignition ($250+), Titanium ($500+), and Prime ($1,000+). Each higher tier includes the preceding tier's benefits. Logo placements depend on available space and production deadlines. Tier inquiry buttons open the team email address with the selected tier in the subject; the website does not collect payments.
+The Sponsorship section displays a $2,500 fundraising goal and lists the team's approved one-season packages: Spark ($100+), Ignition ($250+), Titanium ($500+), and Prime ($1,000+). Each higher tier includes the preceding tier's benefits. Logo placements depend on available space and production deadlines. Tier inquiry buttons open the team email address with the selected tier in the subject; the website does not collect payments.
 
 ## Search visibility
 

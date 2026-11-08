@@ -121,6 +121,12 @@ h1,h2,.robot-story h3{font-family:'Arial Black','Helvetica Neue',Arial,sans-seri
 .outreach-actions{display:flex;align-items:center;flex-wrap:wrap;gap:28px}
 .sponsorship{--text:#080808;--muted:#555;--line:#d2d2d2;--accent:#080808;background:#f7f7f7;color:var(--text);border-top:1px solid var(--line)}
 .sponsorship-intro{max-width:760px;margin:0 0 40px;color:var(--muted);font-size:15px;line-height:1.8}
+.fundraising-goal{display:flex;align-items:center;justify-content:space-between;gap:28px;margin-bottom:32px;padding:28px 30px;border:1px solid #bbb;background:#fff}
+.fundraising-goal h3{margin:0 0 10px;font-size:22px;letter-spacing:-.025em}
+.fundraising-goal p{margin:0}
+.fundraising-goal p:not(.fundraising-amount){font-size:14px;line-height:1.8;color:var(--muted)}
+.fundraising-amount{font-size:clamp(44px,5vw,68px);font-weight:800;letter-spacing:-.055em;line-height:1;white-space:nowrap}
+@media(max-width:650px){.fundraising-goal{flex-direction:column;align-items:flex-start;gap:22px;padding:24px}.fundraising-amount{font-size:54px}}
 .sponsorship-tiers{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;align-items:stretch}
 .sponsor-tier{position:relative;display:flex;flex-direction:column;min-width:0;padding:30px 24px;border:1px solid var(--line);background:#fff}
 .tier-index{position:absolute;top:30px;right:24px;font-size:10px;letter-spacing:1px;color:var(--muted)}
