@@ -57,6 +57,10 @@ Netlify currently deploys the `main` branch of `ishaanshyju/OptimusFTC32548`. Up
 
 The Outreach section adapts the reference site's numbered card grid and partnership invitation to the team's black-and-white design. It describes the five areas supplied by the team: STEM demonstrations, robotics education, community events, mentoring and collaboration, and inspiring young engineers. Email links open outreach and partnership inquiries addressed to the team. Specific completed events and impact figures can be added once supplied by the team.
 
+## Sponsorship
+
+The Sponsorship section lists the team's approved one-season packages: Spark ($100+), Ignition ($250+), Titanium ($500+), and Prime ($1,000+). Each higher tier includes the preceding tier's benefits. Logo placements depend on available space and production deadlines. Tier inquiry buttons open the team email address with the selected tier in the subject; the website does not collect payments.
+
 ## Search visibility
 
 The site allows search engine crawling through `robots.txt` and its page metadata. `sitemap.xml` lists the homepage; its sections share that page and are not separate sitemap entries. The homepage includes a descriptive search title, canonical Netlify URL, social sharing metadata, and structured data identifying the team and its Instagram profile.

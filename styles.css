@@ -119,6 +119,29 @@ h1,h2,.robot-story h3{font-family:'Arial Black','Helvetica Neue',Arial,sans-seri
 .outreach-partner h3{font-family:'Arial Black','Helvetica Neue',Arial,sans-serif;font-weight:800;font-size:clamp(38px,5vw,68px);line-height:1.02;letter-spacing:-.045em;margin:0 0 22px}
 .outreach-partner>p:not(.eyebrow){max-width:580px;font-size:15px;line-height:1.8;color:#b5b5b5;margin:0 0 30px}
 .outreach-actions{display:flex;align-items:center;flex-wrap:wrap;gap:28px}
+.sponsorship{--text:#080808;--muted:#555;--line:#d2d2d2;--accent:#080808;background:#f7f7f7;color:var(--text);border-top:1px solid var(--line)}
+.sponsorship-intro{max-width:760px;margin:0 0 40px;color:var(--muted);font-size:15px;line-height:1.8}
+.sponsorship-tiers{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;align-items:stretch}
+.sponsor-tier{position:relative;display:flex;flex-direction:column;min-width:0;padding:30px 24px;border:1px solid var(--line);background:#fff}
+.tier-index{position:absolute;top:30px;right:24px;font-size:10px;letter-spacing:1px;color:var(--muted)}
+.sponsor-tier h3{margin:0 26px 24px 0;font-size:27px;font-weight:700;letter-spacing:-.03em}
+.tier-price{margin:0 0 24px;font-size:clamp(42px,3.7vw,56px);line-height:1;letter-spacing:-.055em;font-weight:800;white-space:nowrap}
+.tier-description{margin:0 0 25px;font-size:13px;line-height:1.8;color:var(--muted)}
+.tier-benefits{list-style:none;margin:0 0 30px;padding:23px 0 0;border-top:1px solid var(--line)}
+.tier-benefits li{display:grid;grid-template-columns:10px minmax(0,1fr);gap:9px;margin-bottom:15px;font-size:12px;line-height:1.7;color:var(--muted)}
+.tier-benefits li:last-child{margin-bottom:0}
+.tier-benefits li:before{content:"";display:block;width:7px;height:4px;margin-top:6px;border-left:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:rotate(-45deg)}
+.sponsor-tier .tier-contact{width:100%;margin-top:auto;gap:12px;padding:16px;font-size:12px;background:#111;color:#fff}
+.sponsor-tier .tier-contact:hover{background:#333}
+.sponsor-tier-prime{--text:#fff;--muted:#c2c2c2;--line:#444;background:#111;color:var(--text);border-color:#111}
+.sponsor-tier-prime .tier-contact{background:#fff;color:#111}
+.sponsor-tier-prime .tier-contact:hover{background:#ddd}
+.sponsorship a:focus-visible{outline:2px solid #111;outline-offset:4px}
+.sponsor-tier-prime a:focus-visible{outline-color:#fff}
+.sponsorship-terms{margin:24px 0 0;font-size:12px;line-height:1.8;color:var(--muted)}
+@media(min-width:1241px) and (max-width:1500px){.header .brand small{display:none}.header nav{gap:20px;font-size:12px}}
+@media(max-width:1199px){.sponsorship-tiers{grid-template-columns:repeat(2,minmax(0,1fr))}.tier-price{font-size:54px}}
+@media(max-width:650px){.sponsorship-intro{font-size:14px;margin-bottom:30px}.sponsorship-tiers{grid-template-columns:1fr}.sponsor-tier{padding:28px 24px}.tier-index{top:28px}.sponsor-tier h3{margin-bottom:22px}.tier-price{font-size:54px}.tier-description{font-size:14px}.tier-benefits li{font-size:13px}.sponsorship-terms{font-size:11px}}
 @media(max-width:900px){.outreach-layout{grid-template-columns:1fr;gap:32px}.outreach-invitation{max-width:560px}.outreach-partner{padding:38px}}
 @media(max-width:650px){.outreach-intro{font-size:14px;margin-bottom:32px}.outreach-grid{grid-template-columns:1fr}.outreach-card{padding:26px}.outreach-card h3{margin-top:25px}.outreach-partner{padding:27px 23px;margin-top:38px}.outreach-partner h3{font-size:clamp(34px,8.7vw,46px)}.outreach-partner .eyebrow{font-size:8px;letter-spacing:1.25px}.outreach-partner>p:not(.eyebrow){font-size:14px}.outreach-actions{gap:24px}.outreach-invitation .button,.outreach-actions .button{padding:16px 18px;gap:20px;font-size:12px}}
 @media(max-width:1240px){.header .brand small{display:none}.menu-toggle{display:block;background:none;border:1px solid var(--line);color:var(--text);font-size:20px;padding:5px 10px}nav{display:none;position:absolute;top:89px;left:0;right:0;background:var(--panel);padding:25px 6%;flex-direction:column;align-items:stretch;border-bottom:1px solid var(--line)}nav.open{display:flex}}
