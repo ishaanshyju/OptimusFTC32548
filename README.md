@@ -73,6 +73,10 @@ Search engines decide when to crawl, index, and rank the site. These settings do
 
 Adding the website link to the team's Instagram bio or an official school robotics page can also help people and search engines discover it.
 
+## Team logo
+
+`assets/optimus-team-logo.png` is a web-ready image prepared from the silver-and-gold team logo supplied in chat. The original upload was available only as a chat preview, so this asset was prepared with an AI-assisted crop. It appears in the header and About section, and is used as the browser icon and organization logo in structured data. The surrounding website retains its black-and-white design.
+
 ## Robot CAD image
 
 `assets/optimus-robot-cad.png` is an AI-assisted crop prepared from the CAD screenshot supplied in chat. It is presented as a CAD visualization for the website, rather than a downloadable CAD model. The original screenshot file was not accessible in the workspace. The prepared image removes the large blank outer canvas and viewer controls, and includes a full-size viewing link. Replace it with a direct screenshot or CAD export when the original file becomes available.
