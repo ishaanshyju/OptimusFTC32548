@@ -75,7 +75,7 @@ Adding the website link to the team's Instagram bio or an official school roboti
 
 ## Team logo
 
-`assets/optimus-team-logo.png` is a web-ready image prepared from the silver-and-gold team logo supplied in chat. The original upload was available only as a chat preview, so this asset was prepared with an AI-assisted crop. It appears in the header and About section, and is used as the browser icon and organization logo in structured data. The surrounding website retains its black-and-white design.
+`assets/optimus-team-logo-transparent.png` is a transparent PNG prepared from the silver-and-gold team logo supplied in chat. The original upload was available only as a chat preview, so the web asset and background removal were prepared with the image-editing tool. The logo appears in the header and About section, and is used as the browser icon and organization logo in structured data. Its transparent background blends with the dark header and light About section; the showcase has no separate background or border.
 
 ## Robot CAD image
 
